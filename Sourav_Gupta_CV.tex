@@ -1,0 +1,233 @@
+\documentclass[11pt]{spidercv}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+
+
+\begin{document}
+
+    %----------------------------------------------------------------------------------------
+    %	TOP BAR
+    %----------------------------------------------------------------------------------------
+    \begin{TopBar}{\ColorTextSide}
+        \Name{\ColorHighlight}{Sourav Gupta}{Data Analyst}{25 years old}
+
+        %%% Contact
+        \TextSeparator{\ColorHighlight}{Contact}
+        \begin{DoubleColumns}
+            \begin{ItemList}{\ColorHighlight}
+                \item [\Large\faAt] \href{mailto:email@example.com}{sourav.gupta@gisma-student.com}
+                \item [\Large\faMobile] +49 1767 193 4424                \item [\Large\faMapMarker] Berlin,Germany
+            \end{ItemList}
+            \nextcolumn
+            \begin{ItemList}{\ColorHighlight}
+                \item [\Large\faGithub] \href{https://github.com/ROMAINPC/Spider-CV}{https://github.com/souravgupta166}
+                \item [\Large\faLinkedinSquare] \href{https://www.linkedin.com/}{https://www.linkedin.com/in/sourav-gupta-7539a9217/}
+            \end{ItemList}
+        \end{DoubleColumns}
+
+        %%% Interests
+        \TextSeparator{\ColorHighlight}{Interests}
+        \begin{TripleColumns}
+            \begin{ItemList}{\ColorHighlight}
+                \item [] Sports
+            \end{ItemList}
+            \nextcolumn
+            \begin{ItemList}{\ColorHighlight}
+                \item [] Coding
+            \end{ItemList}
+            \nextcolumn
+            \begin{ItemList}{\ColorHighlight}
+                \item [] Exploring New Places
+            \end{ItemList}
+        \end{TripleColumns}
+    \end{TopBar}
+
+
+
+    %----------------------------------------------------------------------------------------
+    %	SIDE BAR
+    %----------------------------------------------------------------------------------------
+    \begin{SideBar}{\ColorBackground}{\ColorTextSide}
+        
+        %%% Soft skills
+        \TextSeparatorBis{\ColorHighlight}{\faUser}{Soft skills}
+        
+        \Label{\ColorHighlight}{Problem Solving}
+        \Label{\ColorHighlight}{Critical Thinking}
+        \Label{\ColorHighlight}{ Decision 
+Making}
+        \Label{\ColorHighlight}{ Public Speaking }
+        
+        \vspace*{1cm}
+
+        %%% Hard skills
+        \TextSeparatorBis{\ColorHighlight}{\faGears}{Hard skills}
+        \begin{ItemList}{\ColorHighlight}
+            \item [Coding Languages:] Python, SQL
+            \item [ Frameworks:] TensorFlow, 
+              Matplotlib, Scikit-Learn, 
+              Seaborn,  
+            \item [Technical Skills:]  Deep Learning, Machine Learning, Artificial Intelligence
+            \item [Other Skills: ]   Power BI, MS-Excel, Supply-Chain 
+Management, Research Methodology, Marketing 
+Analytics, ERP Sales 
+
+        \end{ItemList}
+
+        \vspace*{1cm}
+
+    
+        \TextSeparatorBis{\ColorHighlight}{Top Skills}
+
+        \begin{SpiderDiagram}{\ColorTextSide}{\ColorHighlight}
+        
+        
+            \addSkill{PowerBI}{5}
+            \addSkill{SQL}{3}
+            \addSkill{Python}{2}
+            \addSkill{AI}{4}
+            \addSkill{ML}{5}
+            \addSkill{DeepLearning}{3}
+        \end{SpiderDiagram}
+
+        \vspace*{1cm}
+
+        %%% Languages
+        \TextSeparatorBis{\ColorHighlight}{\faLanguage}{Languages}
+
+        \begin{SkillGauges}{\ColorHighlight}
+            \addGauge{English}{5}
+            \addGauge{German}{3}
+    
+        \end{SkillGauges}
+    \end{SideBar}
+
+    
+
+    %----------------------------------------------------------------------------------------
+    %	Picture
+    %----------------------------------------------------------------------------------------
+    \DefineProfile{\ColorOther}{\ColorTextSide}{Photo.JPG}
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\linewidth]{}
+\begin{figure}
+        \centering
+        \includegraphics[width=0.5\linewidth]
+        \label{fig:enter-label}
+    \end{figure}
+        \caption{Enter Caption}
+    \label{fig:enter-label}
+\end{figure}
+
+
+
+    %----------------------------------------------------------------------------------------
+    %	Main
+    %----------------------------------------------------------------------------------------
+    \begin{MainPart}
+
+    %%% Experiences 
+    \MainTitleBis{\ColorHighlight}{\ColorTextMain}{Experiences}{\faSuitcase}
+    \Experience
+        {\ColorHighlight}
+		{DATA ANALYST AS A FREELANCER}
+		{RISE INSTITUTE}
+        { FEB 2022 – JAN 2024\faUndo}
+        {   
+        • Responsible for normalizing data to improve data quality and consistency. 
+        
+        • Reports from Power BI Dashboards:  
+Reduced data duplication by 25percent through data normalization process. 
+
+        • Improved data consistency by 30percent by implementing standardize data formatting and validation rules.
+        
+        • Examined of Crucial Measures for Pizza Sales: The analysis uncovered insights that led to a 12percent increase in overall pizza revenue order the previous year.\\
+        
+        }
+    \Experience
+        {\ColorHighlight}
+		{SR BUSINESS DEVELOPMENT ASSOCIATE}
+		{BYJUS}
+        { MAY 2021 – APRIL 2023}
+        {   
+            • Developed and implemented sales strategies, client services and retention plans. 
+            
+• Implemented 3 client retention plans that improved client satisfaction scores by an average of 20percent.
+
+• Utilized SQL queries to identify 50 key decision makers, resulting in a 25percent increase in targeted sales outreach. 
+
+• Worked efficiently in busy, high-risk settings while maintaining best-in-class standards of excellence for security 
+initiatives\\
+        }
+
+
+    %%% Education
+    \MainTitleBis{\ColorHighlight}{\ColorTextMain}{Education}{\faGraduationCap}
+    \Experience
+        {\ColorHighlight}
+		{MSC Data Sceince,AI,Digital Business}
+		{Gisma University of Applied Science}
+        {April 2024 - Current}
+       
+    \Experience
+        {\ColorHighlight}
+		{Bachelors Mass Media}
+		{Mumbai University}
+        {2018-2021}
+
+      %%% Projects 
+    \MainTitleBis{\ColorHighlight}{\ColorTextMain}{Projects}
+ \Projects
+        
+        
+		{\textbf{DECATHLON INDIA}}
+		{\textbf{ANALYSING SALES DATA}}
+        {\textbf{ TOOLS – POWER BI, SQL\faUndo}}
+        {   
+        
+    - Successfully implemented the comprehensive and visually engaging Power BI dashboard for the client's business intelligence needs 
+
+- Created and developed a Power BI dashboard.\\
+        
+        }
+        
+    \Projects
+        
+        
+		{\textbf{MOD Pizza project}}
+		{\textbf{RISE ACADEMY} }
+        {\textbf{TOOLS – POWER BI, SQ}}
+        
+        {   
+            - By examining these important metrics associated with the client's pizza sales data, the dashboard offers insights into the 
+client's business performance. 
+\\
+        }
+
+   
+        
+
+
+    %%% Activities
+    \MainTitleBis{\ColorHighlight}{\ColorTextMain}{Activities}{\faUsers}
+    \vspace*{0.5cm}
+    \begin{DoubleColumns}
+        \begin{ItemList}{\ColorHighlight}
+            \item [] Playing Volleyball
+            \item [] Playing Cricket
+        \end{ItemList}
+        \nextcolumn
+        \begin{ItemList}{\ColorHighlight}
+            \item [] Swimming
+        \end{ItemList}
+    \end{DoubleColumns}
+
+    \end{MainPart}
+
+    
+
+\end{document}
+
+
