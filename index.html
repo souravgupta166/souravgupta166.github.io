@@ -4,28 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    
 </head>
 <body>
     <header>
         <h1>Welcome to My Portfolio</h1>
     </header>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="https://github.com/souravgupta166/souravgupta166.github.io/blob/main/Sourav_Latex_CV.pdf">CV</a></li>
-            <li><a href="projects.html">Projects</a></li>
-        </ul>
+    <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+        <div class="container d-flex justify-content-center">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="center-left" href="">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="center" href="Sourav_Latex_CV.pdf">CV</a>
+                </li>
+                <li class="nav-item">
+                    <a class="center-right" href="PowerBI Dashboards.pdf">Projects</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="center-right" href="#" id="dropdownMenuButton1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Contacts
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <a class="dropdown-item" href="#">Phone - +49 17671934424</a>
+                        <a class="dropdown-item" href="#">Email - sourav.gupta@gisma-student.com</a>
+                        <a class="dropdown-item" href="#">GitHub - @souravgupta166</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
     </nav>
     <section>
         <h2>About Me</h2>
+		<img src="Photo.JPG" alt="Profile Picture" class="img-thumbnail float-left mr-4" style="width: 150px; height: auto;">
         <p>
-
-I am a computer science enthusiast with a strong background in software development, currently pursuing a working student position. My expertise spans various programming languages, including Python, JavaScript, and C++, with a keen interest in web development and data analysis. I have successfully completed multiple projects that demonstrate my skills in developing efficient and scalable software solutions. I am passionate about leveraging technology to solve real-world problems and continuously enhancing my technical abilities. This portfolio is a testament to my dedication to learning and my commitment to excellence in the field of computer science.
-</p>
+            I am a computer science enthusiast with a strong background in software development, currently pursuing a working student position. My expertise spans various programming languages, including Python, JavaScript, and C++, with a keen interest in web development and data analysis. I have successfully completed multiple projects that demonstrate my skills in developing efficient and scalable software solutions. I am passionate about leveraging technology to solve real-world problems and continuously enhancing my technical abilities. This portfolio is a testament to my dedication to learning and my commitment to excellence in the field of computer science.
+        </p>
     </section>
     <footer>
         <p>&copy; 2024 Sourav Gupta</p>
     </footer>
+    <!-- jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
